@@ -18,6 +18,13 @@ O objetivo foi desenvolver uma API seguindo padrões reais de mercado, com foco 
 
 ---
 
+## 🌐 API Online
+
+- 🔗 API: https://devstore-ye6v.onrender.com/api
+- 📄 Docs (Swagger): https://devstore-ye6v.onrender.com//api/docs/
+
+---
+
 ## ⚙️ Tecnologias utilizadas
 
 * Python 3.14.4
