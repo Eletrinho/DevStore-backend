@@ -8,8 +8,7 @@ from django.db.models import QuerySet
 @extend_schema(operation_id="products_list")
 @api_view(['GET'])
 def product_list_view(request):
-    q = QuerySet()
-    serializer = ProductSerializer(q, many=True)
+    serializer = ProductSerializer(Product.objects.all(), many=True)
     return Response(serializer.data)
 
 @extend_schema(operation_id="product_detail")
